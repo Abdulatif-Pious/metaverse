@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+.gradient-01 {
+  background-image: linear-gradient(210deg,rgb(126, 56, 167)  45.3%, rgb(25, 150, 200) 56.2%, rgb(56, 89, 232) 78.8%);
+  filter: blur(100px);
+}
+
+.gradient-title {
+  background: linear-gradient(90deg, rgb(50, 90, 210), rgb(230, 0, 246) 70%);
+  -webkit-backround-clip : text;
+  background-clip : text;
+  -webkit-text-fill-color : transparent;
+}
+
+
+.hero-gradient {
+  background: linear-gradient(90deg, rgb(230, 0, 246), rgb(0, 165, 230), rgb(200, 0, 210));
+  filter: blur(125px);
+}
