@@ -10,6 +10,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
+      viewport={{ once: true}}
       className="relative flex items-center justify-between w-full text-white border-b-2 border-indigo-500/30 p-2 md:p-4 2xl:p-6"
     >
       {/* gradient*/}

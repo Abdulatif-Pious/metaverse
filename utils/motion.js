@@ -1,15 +1,15 @@
 export const navVariants = {
   hidden : {
     opacity: 0,
-    y: 100,
+    y: 30,
   },
   show: {
     opacity: 1,
     y: 0,
     transition: {
       type: "spring",
-      stifness: 25,
-      damping: 4.3,
+      stifness: 1,
+      damping: 1,
     },
   },
 };
