@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
       <meta name="viewport" content="width=screen-width, initial-scale=1.0"  />
       <meta name="description" content="Everything you need to know about Metaverse" />
       <link rel="icon" href="favicon.ico " />
-      <title>Abdulatif's metaverse</title>
+      <title>Metaverse</title>
 
     </Head>
     <div className="bg-primary-black overflow-hidden">

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import {  motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 import { navVariants } from '../utils/motion';
 
@@ -10,7 +10,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true}}
+      viewport={{ once: true }}
       className="relative flex items-center justify-between w-full text-white border-b-2 border-indigo-500/30 p-2 md:p-4 2xl:p-6"
     >
       {/* gradient*/}
@@ -35,7 +35,7 @@ const Navbar = () => {
           src="./menu.svg"
           alt="menu"
           className="w-4 h-4 md:w-6 md:h-6 2xl:w-10 2xl:h-10 cursor-pointer"
-          whileHover={{ scale: 1.2 }}
+          whileHover={{ scale: 1.1 }}
           whileTap= {{ scale: 0.9}}
         />
       </div>

@@ -11,24 +11,20 @@ export default function Home() {
           <About />
         </div>
         <div className="relative">
-          {/* // gradient */}
           <Explore />
         </div>
         <div className="relative">
           <GetStarted />
-          {/* gradient */}
           <WhatsNew />
         </div>
         <World />
         <div className="relative">
           <Insight />
-          {/* gradient*/}
           <Feedback />
         </div>
         <div>
           <Footer />
         </div>
-        
     </main>
-  )
-}
+  );
+};

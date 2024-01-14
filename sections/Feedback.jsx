@@ -42,7 +42,7 @@ const Feedback = () => {
               </span>
           </div>
           
-          <div className='absolute top-[100px] left-[60px] hidden lg:flex md:justify-end  w-full h-full'>
+          <div className='absolute top-1/3 left-[60px] hidden lg:flex justify-end  w-full h-full'>
             <div>
               <img 
                 src="./stamp.png"

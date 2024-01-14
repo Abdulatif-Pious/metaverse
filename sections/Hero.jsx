@@ -33,13 +33,13 @@ const Hero = () => {
       >
         <div className="absolute  top-[15%] w-full h-[200px] hero-gradient z-10" />
         
-        <div className='relative flex items-center justify-center w-full h-[200px] md:h-[300px] 2xl:h-[400px]'>
+        <div className='relative flex items-center justify-center w-full h-[200px] md:h-[300px] 2xl:h-[500px]'>
           <img 
             src='./cover.png'
             alt="hero image"
-            className="w-4/5  h-4/5 rounded-[20px] object-cover mt-[30px]"
-        />
-          <div className="absolute flex justify-end   w-full mr-[10%]">
+            className="w-full  h-full rounded-xl object-cover mt-4"
+          />
+          <div className="absolute flex justify-end w-full -mr-[10%]">
             <img 
               src="stamp.png"
               alt="stamp image"

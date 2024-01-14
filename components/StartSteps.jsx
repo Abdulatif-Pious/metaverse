@@ -6,7 +6,7 @@ const StartSteps = ({ index, feature}) => {
       <div className='w-[50px] h-[50px] flex items-center justify-center bg-gradient-to-b from-indigo-500 to-purple-700  rounded-lg'>
         <p className='font-semibold'>{index + 1}</p>
       </div>
-      <p className=' ml-4 md:ml-6 2xl:ml-12'>
+      <p className='ml-4 md:ml-6 2xl:ml-12'>
         {feature}
       </p>
     </article>

@@ -39,7 +39,7 @@ const ExploreCard = ({ index, active, setActive, id, imgUrl, title}) => {
           </h4>
         </div>
       ) : (
-        <h4 className='absolute font-semibold text-white text-lg 2xl:text-3xl  2xl:rotate-[270deg]'>
+        <h4 className='absolute font-semibold text-white text-lg 2xl:text-xl  2xl:rotate-[270deg]'>
           {title}
         </h4>
       )}
